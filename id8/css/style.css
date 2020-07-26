@@ -1,0 +1,215 @@
+:root {
+    --orange-color:  #FF6600;
+    --lightblueAccent-color: #62D7CA;
+    --black-color: #000000;
+    --white-color: #FFFFFF;
+    --paleYellow-color: #FFDD65;
+
+    /* fonts */
+    --unnamed-font-family-hk-grotesk: HK Grotesk;
+    --unnamed-font-style-regular: Regular;
+    --unnamed-font-style-bold: Bold;
+    --unnamed-font-style-medium: Medium;
+}
+body{
+    width:100% !important;
+    max-width: 100% !important;
+    min-height:700px;
+    background:url("../assets/Repeat Grid 19.svg");
+}
+
+
+body {
+display: flex;
+min-height: 100vh;
+flex-direction: column;
+}
+
+
+
+.main {
+flex: 1 0 auto;
+}
+
+#logo-img{
+    width: 108px;
+    height: 88px;
+    /* border: 2px dashed red; */
+    margin-top:35px;
+}
+nav{
+    /* border:2px dashed blue; */
+    height:100px;
+    padding-top:0px !important;
+    box-shadow: 0px 0px #888888 !important;
+}
+nav>.nav-wrapper>ul{
+    /* border:3px dashed indianred; */
+    margin-top:46px;
+}
+ul>li>a{
+    color:#000000 !important;
+}
+ul>li>a:hover{
+    background: transparent;
+    border-bottom:2px solid orange;
+}
+#nav-toggle{
+    margin-top:30px !important;
+    color:black !important;
+}
+.banner{
+    /* border:2px dashed red; */
+    /* width:100%; */
+    min-height:600px;
+}
+.banner-sec-1{
+    position: absolute;
+    z-index: -1;
+    width:100% !important;
+    height:450px;
+}
+.banner-sec-2{
+    position: absolute;
+    z-index: -2;
+    left:-209px;
+    width:427px;
+    height:427px;
+    margin-top:250px;
+    background:var(--orange-color);
+    border-radius:100%;
+    opacity:0.5;
+    /* border:3px dashed green; */
+}
+.banner-sec-3{
+    position: absolute;
+    z-index: -1;
+    width:200px;
+    height:250px;
+    background:var(--white-color);
+    margin-top:450px;
+}
+#start-project-btn{
+    border-radius:10px !important;
+}
+
+.companies{
+    width:100%;
+    min-height:150px;
+    margin-top:90px;
+    /* border:1px dashed red; */
+}
+
+.companies>.container>.col>.card-panel{
+    border-radius:10px;
+}
+.projects{
+    /* border:3px dashed purple; */
+    min-height:auto !important;
+
+}
+
+.projects>.container>.col>.pre-heading{
+    color:var(--lightblueAccent-color) !important;
+}
+
+.projects>.container>.col>.main-heading{
+    width: 320px;
+    height:auto;
+    /* font-size:40px; */
+    /* border:2px dashed red; */
+    /* background:red; */
+}
+
+.projects-card{
+    min-height:440px;
+    /* border:2px dashed pink; */
+}
+
+.projects-card>.child-1{
+    position: absolute;
+    z-index: -1;
+    margin:35px 0px 0px 0px;
+    width:380px;
+    height:390px;
+    border:1px solid orange;
+    border-radius:10px;
+    opacity:0.4;
+}
+.projects-card>.child-2{
+    position: absolute;
+    z-index: -1;
+    width:420px;
+    height:470px;
+    margin-left:5px;
+    border-radius:10px;
+    /* border:1px dashed red; */
+}
+
+.project-card-info{
+    width:280px;
+    height:auto;
+    /* border:2px dashed red; */
+}
+.project-card-info>.project-info-heading>.hr{
+    width:45px;
+    border:1px solid var(--orange-color);
+    opacity:0.4;
+}
+/* .prj-left{
+    border:4px solid black;
+} */
+.prj-right{
+    /* border:4px solid black; */
+    margin-top:-95px;
+    padding-left:65px !important;
+}
+/* .prj-right>.projects-card{
+    border:2px solid green;
+} */
+.prj-right>.projects-card>.child-1{
+    border:1px solid var(--lightblueAccent-color);
+}
+.break{
+    width:100%;
+    height:150px;
+    /* border:2px dashed red; */
+}
+
+.footer-copyright,.footer{
+    padding-bottom: 0px !important;
+}
+
+.extra-section-child-1{
+    position: absolute;
+    z-index: -1;
+    width:100%;
+    height:450px;
+    background:var(--orange-color);
+    opacity:0.6;
+}
+.extra-section{
+    width:100%;
+    min-height:auto;
+    /* border: 2px dashed red; */
+    /* background:url("../assets/Path 1983.svg");
+    background-size:fill;
+    background-repeat:no-repeat;
+    background-position: center; */
+
+}
+.extra-section>.row>.prj-right{
+    margin-top:0px;
+}
+
+.line{
+    top: 470px;
+    left: 1140px;
+    width: 226px;
+    /* height: 87px; */
+    transform: matrix(0.98, 0.17, -0.17, 0.98, 0, 0);
+    border: 8px solid var(--unnamed-color-ff6600);
+    border: 8px solid #FF6600;
+    opacity: 1;
+}
+

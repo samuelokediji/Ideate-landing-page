@@ -1,0 +1,110 @@
+:root {
+    --orange-color: #FF6600;
+    --lightblueAccent-color: #62D7CA;
+    --black-color: #000000;
+    --white-color: #FFFFFF;
+    --paleYellow-color: #FFDD65;
+
+    /* fonts */
+    --unnamed-font-family-hk-grotesk: HK Grotesk;
+    --unnamed-font-style-regular: Regular;
+    --unnamed-font-style-bold: Bold;
+    --unnamed-font-style-medium: Medium;
+}
+body{
+    width:100% !important;
+    min-height:700px;
+    background:url("../assets/Repeat Grid 19.svg");
+}
+
+body {
+display: flex;
+min-height: 100vh;
+flex-direction: column;
+}
+
+.main {
+flex: 1 0 auto;
+}
+.footer-footer{
+    position: absolute;
+    z-index: -1;
+}
+#logo-img{
+    width: 108px;
+    height: 88px;
+    /* border: 2px dashed red; */
+    margin-top:35px;
+}
+
+nav{
+    /* border:2px dashed blue; */
+    height:100px;
+    padding-top:0px !important;
+    box-shadow: 0px 0px #888888 !important;
+}
+nav>.nav-wrapper>ul{
+    /* border:3px dashed indianred; */
+    margin-top:46px;
+}
+ul>li>a{
+    color:#000000 !important;
+}
+ul>li>a:hover{
+    background: transparent;
+    border-bottom:2px solid orange;
+}
+#nav-toggle{
+    margin-top:30px !important;
+    color:black !important;
+}
+
+/* .banner-card{
+    min-height:440px;
+    border:2px dashed pink;
+} */
+
+.banner-card>.child-1{
+    /* position: absolute;
+    z-index: -1; */
+    margin:35px 0px 0px 0px;
+    width:95%;
+    height:430px;
+    border:1px solid orange;
+    border-radius:10px;
+    /* opacity:0.4; */
+}
+.banner-card>.child-2,.banner-img{
+    /* position: absolute;
+    z-index: -1; */
+    width:100%;
+    height:550px;
+    border-radius:10px;
+    /* border:2px dashed red; */
+    margin-left:0px !important;
+    background:url('https://res.cloudinary.com/unitech-global-resource/image/upload/v1595537868/nkem_jwryf6.png');
+    background-repeat: no-repeat;
+    background-size:cover;
+}
+.break{
+    width:100%;
+    height:150px;
+    /* border:2px dashed red; */
+}
+.snip-1{
+    width:100%;
+    height:550px;
+    border-radius:10px;
+    /* border:2px dashed red; */
+    margin-left:0px !important;
+    background:url('https://res.cloudinary.com/unitech-global-resource/image/upload/v1595537874/egs_vch7qj.png');
+    background-repeat: no-repeat;
+    background-size:cover;
+.snip-2{
+    /* background:pink; */
+    /* width:90%; */
+    height:200px;
+    /* background: url("../assets/46f83872907227.5c1c38502e7d8.png") !important;
+    background-repeat:no-repeat;
+    background-size:cover; */
+}

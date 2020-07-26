@@ -1,0 +1,164 @@
+:root {
+    --orange-color: #FF6600;
+    --lightblueAccent-color: #62D7CA;
+    --black-color: #000000;
+    --white-color: #FFFFFF;
+    --paleYellow-color: #FFDD65;
+
+    /* fonts */
+    --unnamed-font-family-hk-grotesk: HK Grotesk;
+    --unnamed-font-style-regular: Regular;
+    --unnamed-font-style-bold: Bold;
+    --unnamed-font-style-medium: Medium;
+}
+body{
+    width:100% !important;
+    min-height:700px;
+    background:url("../assets/Repeat Grid 19.svg");
+}
+
+body {
+display: flex;
+min-height: 100vh;
+flex-direction: column;
+}
+
+
+
+.main {
+flex: 1 0 auto;
+}
+
+#logo-img{
+    width: 108px;
+    height: 88px;
+    /* border: 2px dashed red; */
+    margin-top:35px;
+}
+
+nav{
+    /* border:2px dashed blue; */
+    height:100px;
+    padding-top:0px !important;
+    box-shadow: 0px 0px #888888 !important;
+}
+nav>.nav-wrapper>ul{
+    /* border:3px dashed indianred; */
+    margin-top:46px;
+}
+ul>li>a{
+    color:#000000 !important;
+}
+ul>li>a:hover{
+    background: transparent;
+    border-bottom:2px solid orange;
+}
+#nav-toggle{
+    margin-top:30px !important;
+    color:black !important;
+}
+.banner{
+    /* border:2px dashed red; */
+    /* width:100%; */
+    min-height:600px;
+}
+.banner-sec-1{
+    position: absolute;
+    left: 0px;
+    top: 0px;
+    z-index: -1;
+    width:100% !important;
+    height:auto;
+    /* background:blue; */
+    padding-top:30px;
+    /* border:2px dashed red; */
+}
+.banner-sec-2{
+    position: absolute;
+    z-index: -2;
+    left:-209px;
+    width:527px;
+    height:527px;
+    margin-top:250px;
+    background:var(--orange-color);
+    border-radius:100%;
+    opacity:0.5;
+    /* border:3px dashed green; */
+}
+.banner-sec-3{
+    position: absolute;
+    z-index: -1;
+    width:200px;
+    height:250px;
+    background:var(--white-color);
+    margin-top:450px;
+}
+
+.banner-card{
+    min-height:440px;
+    /* border:2px dashed pink; */
+}
+
+.banner-card>.child-1{
+    position: absolute;
+    z-index: -1;
+    margin:35px 0px 0px 0px;
+    width:380px;
+    height:430px;
+    border:1px solid orange;
+    border-radius:10px;
+    /* opacity:0.4; */
+}
+.banner-card>.child-2{
+    position: absolute;
+    z-index: -1;
+    width:420px;
+    height:470px;
+    border-radius:10px;
+    /* border:2px dashed red; */
+    margin-left:0px !important;
+    background:url('../assets/tran-mau-tri-tam-tZnbakTUcTI-unsplash@2x.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.break{
+    width:100%;
+    height:100px;
+}
+.bluelightAccent-text{
+ color:var(--lightblueAccent-color);   
+}
+.about{
+    /* border:2px dashede red; */
+    height:auto !important;
+}
+
+.projects{
+    /* border:3px dashed purple; */
+    min-height:auto !important;
+
+}
+
+.projects>.container>.col>.pre-heading{
+    color:var(--lightblueAccent-color) !important;
+}
+.projects>.container>.col>.main-heading{
+    width: 320px;
+    height:auto;
+    /* font-size:40px; */
+    /* border:2px dashed red; */
+    /* background:red; */
+}
+/* .projects-card{
+    border:2px dashed red
+} */
+.projects-card>.card-panel{
+    width:390px;
+    height:400px;
+    margin:0px auto !important;
+    border-radius:10px;
+}
+.prj-right>.projects-card{
+    margin-top:-80px;
+}
